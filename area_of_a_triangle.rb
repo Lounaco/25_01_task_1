@@ -1,13 +1,13 @@
-puts "Let's find the area of the triangle!
-/n
-You only need to know the height and base of the triangle. "
+puts "Let's find the area of the triangle! "
 
 print "What is the base of the triangle? "
-base = gets.chomp
+base = gets
+x = base
 
 print "What is the height of the triangle? "
-height = gets.chomp
+height = gets
+h = height
 
-area = (base*height)/2.0
+area = (x*h)/2.0
 
-puts "Area of triangle is #{area} square units!"
+puts "Area of triangle is #{area} square units! "
