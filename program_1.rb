@@ -5,11 +5,11 @@ print "Welcome, #{first_name}! "
 
 #Основная часть
 print "Write your height: "
-height = gets
+height = gets.to_i
 x = height
 
 print "Write your weight: "
-weight = gets
+weight = gets.to_i
 w = weight
 
 y = (x-110)*1.15
