@@ -1,20 +1,20 @@
-# Приветствие
+# Welcome
 print "Hello! What's your first name? "
 first_name = gets
 print "Welcome, #{first_name}! "
 
-#Основная часть
+#Main part 
 print "Write your height: "
-height = gets.to_i
+height = gets.chomp.to_i
 x = height
 
 print "Write your weight: "
-weight = gets.to_i
+weight = gets.chomp.to_i
 w = weight
 
 y = (x-110)*1.15
 
-#результат 
+#Result
 print "#{first_name} your ideal weight is #{y}! "
 
 if 
