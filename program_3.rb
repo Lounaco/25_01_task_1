@@ -14,7 +14,7 @@ c = gets.chomp.to_f
 
 #solution
 
-if a = b = c
+if a==b && b==c
   puts "Equilateral triangle "
 
 elsif  (a == c) || (c == b) || (a == b) 
